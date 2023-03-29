@@ -12,3 +12,8 @@ const person = {      // keys are unique
   'age':20,
   'name':'Vipul'
 }
+
+//modify a map
+person[name]='xyz';   //updates value of key 'name'
+
+person[location]='india';   //if the key doesn't exist, it will append it
