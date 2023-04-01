@@ -22,3 +22,13 @@ const String? fName = null;
 const String? lName = 'bar';
 
 const notNullValue = fName ?? lName;
+
+//??=  is null aware assignment operator
+
+void test (int? a,int? b, int? c){
+  int? num = a;
+  num ??= b;  //checks if num is null if yes then assign b to num if no let it be.
+  print(num);
+}  
+test(null,5,8);  //prints 5
+test(2,5,8);     //prints 2
