@@ -7,4 +7,11 @@ void main() {
 		}
 	}
 
+	// for in loop
+	List planetList = ["Mercury", "Venus", "Earth", "Mars","Jupiter","Saturn" ];
+
+	for (String planet in planetList) {
+		print(planet);
+	}
+}
 
