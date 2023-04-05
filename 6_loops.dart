@@ -1,6 +1,6 @@
 void main() {
-//for loop
-  
+	
+	//for loop
 	for (int i = 1; i <= 10; i++) {
 		if ( i % 2 == 0) {
 			print(i);
@@ -14,8 +14,7 @@ void main() {
 		print(planet);
 	}
 
-		// while Loop
-
+	// while Loop
 	var  i = 1;
 	while (i <= 10) {
 
@@ -25,11 +24,21 @@ void main() {
 
 		i++;
 	}
+	
+	//do while loop
+	int j = 1;
+	do {
+
+		if ( j % 2 == 0) {
+			print(j);
+		}
+
+		i++;
+	} while ( i <= 25);
+
+
+
+
+
+	
 }
-
-
-
-
-
-}
-
