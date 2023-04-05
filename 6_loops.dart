@@ -6,6 +6,12 @@ void main() {
 			print(i);
 		}
 	}
+	
+	for (int j = 1; j <= 5; j++) {
+		if (j == 3) {
+			break ;  //breaks out of the loop
+		}
+	}
 
 	// for in loop
 	List planetList = ["Mercury", "Venus", "Earth", "Mars","Jupiter","Saturn" ];
