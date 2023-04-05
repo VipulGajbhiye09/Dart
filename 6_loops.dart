@@ -10,6 +10,8 @@ void main() {
 	for (int j = 1; j <= 5; j++) {
 		if (j == 3) {
 			break ;  //breaks out of the loop
+		} else {
+			continue; //continue with the loop
 		}
 	}
 
