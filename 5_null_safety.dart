@@ -40,4 +40,5 @@ void test2 (List<String>? names){
   final length = names?.length;  // no error
   final length = names?.length;  //  error
   
+  final length =names?.length ?? 0; //sets length as zero if list is null
 }
