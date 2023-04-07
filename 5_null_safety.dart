@@ -32,3 +32,12 @@ void test (int? a,int? b, int? c){
 }  
 test(null,5,8);  //prints 5
 test(2,5,8);     //prints 2
+
+
+// ?. is used to conditionally invoke a method or property
+
+void test2 (List<String>? names){
+  final length = names?.length;  // no error
+  final length = names?.length;  //  error
+  
+}
