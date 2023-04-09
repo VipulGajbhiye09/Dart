@@ -6,3 +6,12 @@ class Animal {
 		print("Eat food");
 	}
 }
+
+class Dog extends Animal {     
+
+	String dog_name;
+
+	void bark() {
+		print("Bark ");
+	}
+}
