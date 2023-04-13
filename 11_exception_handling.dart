@@ -34,5 +34,15 @@ void main() {
 	} finally {
 		print("This is FINALLY Clause and is always executed.");
 	}
+	
+	// CASE 5: Custom Exception
+	try {
+		//Custom exception code
+	} catch (e) {
+		print(e.errorMessage());
+	} finally {
+		// Code
+	}
+	
 }
   
