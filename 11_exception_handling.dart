@@ -37,12 +37,24 @@ void main() {
 	
 	// CASE 5: Custom Exception
 	try {
-		//Custom exception code
+		func(-20);
 	} catch (e) {
 		print(e.errorMessage());
 	} finally {
 		// Code
 	}
 	
+}
+
+class MyException implements Exception {
+	String errorMessage() {
+		return "You cannot enter number less than 0";
+	}
+}
+
+void func(int num) {
+	if (num < 0) {
+		throw new MyException();
+	}
 }
   
