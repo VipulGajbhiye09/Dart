@@ -4,3 +4,8 @@ class Person {
   final String name;
   Person(this.name);  //constructor
 }
+
+void test{
+  final obj = Person('person_name');
+  print(obj.name);
+}
