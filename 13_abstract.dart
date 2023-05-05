@@ -18,3 +18,17 @@ abstract class Shape {   //Abstract class
 		// Function logic 
 	}
 }
+
+class Square extends Shape {
+
+	void draw() {
+		print("In class Square");
+	}
+}
+
+class Circle extends Shape {
+
+	void draw() {
+		print("In class  Circle");
+	}
+}
